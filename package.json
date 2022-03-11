@@ -1,0 +1,26 @@
+{
+  "name": "unijuazeiro",
+  "version": "1.0.0",
+  "description": "Atividades da disciplina de POO -  Professor Wellington Feitoza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uriasnovais/unijuazeiro-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uriasnovais/unijuazeiro-main/issues"
+  },
+  "homepage": "https://github.com/uriasnovais/unijuazeiro-main#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.13.0",
+    "typescript": "^4.6.2"
+  }
+}
