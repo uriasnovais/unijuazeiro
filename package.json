@@ -4,7 +4,8 @@
   "description": "Atividades da disciplina de POO -  Professor Wellington Feitoza",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node-modules src/atv1.ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^3.13.0",
     "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.1.6"
   }
 }
